@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Kanit:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+.app-title {
+  font-family: "Kanit", sans-serif;
+
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 2em 4em;
+  background-color: #bbdefb;
+}
+
+.input_wrapper {
+  width: 80vmin;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input_wrapper input {
+  width: 40vmin;
+  font-size: 22px;
+  padding: 6px;
+  outline: none;
+  border: 1px solid #81c784;
+}
+
+.input_wrapper button {
+  font-size: 22px;
+  padding: 6px 16px;
+  border: none;
+  background-color: #81c784;
+  cursor: pointer;
+}
+
+#para {
+  width: 80vmin;
+  margin: auto;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+br {
+  content: "" !important;
+  display: block !important;
+  margin-top: 1em !important;
+}
